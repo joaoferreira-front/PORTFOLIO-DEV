@@ -1,0 +1,147 @@
+:root {
+    /* cores principais */
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+
+    /* base */
+    --gray-100: #0D0E11;
+    --gray-200: #16181D;
+    --gray-300: #292C34;
+    --gray-400: #878EA1;
+    --gray-500: #C0C4CE;
+    --gray-600: #E2E4E9;
+
+    /* fontes */
+    --font-family: "Asap", sans-serif;
+
+    /* títulos */
+    --title-lg: 700 56px/120% var(--font-family);
+    --title-md: 700 24px/120% var(--font-family);
+    --title-sm: 700 16px/120% var(--font-family);
+
+    /* subtítulo */
+    --font-subtitle: "Inconsolata", monospace;
+    --subtitle: 300 20px/120% var(--font-subtitle);
+
+    /* texto */
+    --font-text: "Maven Pro", sans-serif;
+    --text-md: 400 16px/140% var(--font-text);
+    --text-sm: 400 14px/140% var(--font-text);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: var(--gray-400);
+}
+
+#intro {
+    background-image: url(../assets/images/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 750px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#intro img:first-of-type {
+    display: block;
+    margin-bottom: 56px; 
+}
+
+header h2 {
+    width: 680px;
+    height: 24px;
+    font: var(--subtitle);
+    color: var(--gray-500);
+    padding-bottom: 8px;
+}
+
+header h1 {
+    width: 680px;
+    height: 67px;
+    font: var(--title-lg);
+    color: var(--gray-600);
+}
+
+header p {
+    color: var(--gray-400);
+    font: var(--text-sm);
+    width: 680px;
+    padding-top: 20px;
+}
+
+.strong {
+    color: var(--red);
+}
+
+/* Container das tags */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+    justify-content: center;
+    width: 765px;
+    height: 40px;
+    padding-top: 80px;
+    padding-bottom: 151px;
+}
+
+/* Estilo de cada "bolha" */
+.tag {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: var(--gray-300);
+    color: var(--gray-500);
+    border-radius: 999px;
+    font: var(--text-md);
+    width: 114px;
+    height: 40px;
+}
+
+.tag:nth-child(3) {
+    width: 92px;
+}
+
+.tag:nth-child(4) {
+    width: 138px;
+}
+
+.tag:nth-child(5) {
+    width: 106px;
+}
+
+.tag:nth-child(6) {
+    width: 119px;
+}
+
+/* Ícones */
+.tag img {
+    width: 24px;
+    height: 24px;
+}
+
+.vector img {
+    width: 32px;
+    height: 32px;
+}
