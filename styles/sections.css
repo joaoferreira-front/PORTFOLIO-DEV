@@ -1,0 +1,212 @@
+
+
+#intro {
+    background-image: url(../assets/images/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 750px;
+}
+
+#intro img:first-of-type {
+    display: block;
+    margin-bottom: 56px; 
+}
+
+.strong {
+    color: var(--red);
+}
+
+/* Container das tags */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+    justify-content: center;
+    width: 765px;
+    height: 40px;
+    padding-top: 80px;
+    padding-bottom: 151px;
+}
+
+/* Estilo de cada "bolha" */
+.tag {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: var(--gray-300);
+    color: var(--gray-500);
+    border-radius: 999px;
+    font: var(--text-md);
+    width: 114px;
+    height: 40px;
+}
+
+.tag:nth-child(3) {
+    width: 92px;
+}
+
+.tag:nth-child(4) {
+    width: 138px;
+}
+
+.tag:nth-child(5) {
+    width: 106px;
+}
+
+.tag:nth-child(6) {
+    width: 119px;
+}
+
+/* Ícones */
+.tag img {
+    width: 24px;
+    height: 24px;
+}
+
+.vector img {
+    width: 32px;
+    height: 32px;
+}
+/*grid display*/
+
+#projects{
+   width: auto;
+   height: 917px;
+   background-color: var(--gray-200);
+   padding-right:120px;;
+   padding-left: 120px;
+   padding-bottom: 144px;
+}
+
+#header-grid{
+    padding-top: 72px;
+    
+}
+
+#header-grid h2, p {
+    text-align: center;
+}
+
+#header-grid h2 {
+    width: 1040px;
+    height: 24px;
+    font: var(--subtitle);
+}
+
+#header-grid p {
+    width: 1040px;
+    height: 29px;
+    font: var(--title-md);
+    color: var(--gray-600); 
+    padding-bottom: 56px;
+}
+
+  #grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 40px 0px;
+  justify-content: center; /* <-- Centraliza os cards */
+  width: 330px; 
+  height: 280px;       /* Limita a largura total do grid */
+  margin: 0 auto;           /* Centraliza horizontalmente dentro da section */
+  
+}
+
+.grid-layout {
+  background-color: var(--gray-300);
+  border-radius: 12px;
+  padding: 12px;
+  
+}
+.grid-layout img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+/* Caso tenha também o texto dentro de cada bloco */
+.grid-layout p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+    text-align: left;   
+    
+}
+
+
+.grid-layout h3{
+    font: var(--title-sm);
+    color: var(--gray-600);
+}
+
+#services {
+    width: auto;
+    height: 480px;
+    padding: 88px 120px 120px 120px;
+    background-color: var(--gray-100);
+    
+}
+
+
+#header-services  h3{
+ width: 355px;
+ height: 24px;
+ font: var(--subtitle);
+ text-align: center;
+}
+
+#header-services  p{
+    width: 355px;
+    height: 29px;
+    padding-bottom: 56px;
+    font: var(--title-md);
+    color: var(--gray-600); 
+    text-align: center;
+}
+
+#services-layout {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  gap: 24px;
+  padding: 40px 0px;
+  justify-content: center; /* <-- Centraliza os cards */
+  width: 888px; 
+  height: 155px;   /* Limita a largura total do grid */
+  margin: auto;           /* Centraliza horizontalmente dentro da section */
+}
+
+.grid-services {
+   width: 280px;
+   height: 155px;
+   border: 1px solid var(--gray-200);
+   padding: 20px;
+   border-radius: 12px;
+   
+}
+
+.grid-services img {
+    display: block;
+    margin-bottom: 20px;
+    width: 48px;
+    height: 48px;
+}
+
+.grid-services p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+    width: 240px;
+    height: 20px;
+    text-align: justify;
+}
+
+.grid-services h3 {
+    font:var(--title-sm);
+    color: var(--gray-600);
+    width: 240px;
+    height: 20px;
+}
+
