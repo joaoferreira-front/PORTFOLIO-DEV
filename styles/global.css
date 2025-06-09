@@ -44,6 +44,7 @@ body {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     background-color: var(--gray-400);
+    
 }
 
 
@@ -53,6 +54,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 
 }
 
